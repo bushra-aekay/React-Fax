@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: rgb(26, 28, 29);
+  color: white;
+}
+
+main{
+  padding: 60px 30px;
+  background-image: url(/src/assets/react.svg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  
+}
+
+main > h1{
+  margin: 0;
+  font-size: 2.4rem;
+}
+
+.facts-list{
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.facts-list > li{
+  padding-block: 10px;
+  line-height: 19px;
+}
+
+.facts-list > li::marker{
+  color: rgb(97, 180, 208);
+  font-size: 1rem;
+}
+
+header{
+  height: 50px;
+  background-color: rgb(16, 17, 21);
+  padding: 30px 25px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+nav > img{
+  width: 40px;
+  margin-right: 7px;
+}
+
+nav > span{
+  color: rgb(97, 180, 208);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
